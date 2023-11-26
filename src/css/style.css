@@ -1,0 +1,67 @@
+.card-body{
+  height: 10rem;
+}
+.logo{
+  outline: none;
+  font-size:27px;
+  border-bottom: 2px solid;
+}
+.logo:hover{
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+.nav-item{
+  font-size: 20px;
+}
+.title{
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.popular{
+  text-align: center;
+  padding: 15px;
+}
+.img{
+  width: 150px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border: 2px solid;
+}
+.page-home{
+  position: relative;
+  top: 150px;
+}
+/* Временные настройки 'page-favorite' */
+.page-favorite{
+  font-size: 25px;
+  position: relative;
+  top: 350px;
+}
+.page-catalog{
+  position: relative;
+  top: 150px;
+  display: none; 
+}
+.lesson{
+  padding-left: 50px;
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+}
+.show{
+  display: block;
+}
+.lesson:hover{
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+}
+#button{
+  font-size: 30px;
+    position: relative;
+    top:150px;
+    left: 330px;
+}
