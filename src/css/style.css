@@ -3,7 +3,7 @@
 }
 .logo{
   outline: none;
-  font-size:27px;
+  font-size:25px;
   border-bottom: 2px solid;
 }
 .logo:hover{
@@ -51,17 +51,33 @@
   color: gray;
   text-decoration: none;
 }
-.show{
-  display: block;
-}
 .lesson:hover{
   font-size: 20px;
   color: gray;
   text-decoration: none;
 }
+.show{
+  display: block;
+}
 #button{
+  padding-left: 30px;
   font-size: 30px;
-    position: relative;
-    top:150px;
-    left: 330px;
+  position: relative;
+  top:150px;
+}
+.page-header h1{
+  padding-left: 150px;
+  font-size: 40px;
+}
+.page-header h2{
+  padding-left: 150px;
+  font-size: 20px;
+ 
+}
+.title-content{
+  font-size: 25px;
+  text-align: center;
+}
+.title-content .discription{
+  font-size: 15px;
 }
