@@ -1,0 +1,142 @@
+::-webkit-scrollbar {
+	width: 0px;
+}
+.page-catalog{
+    display:flex;
+    border: 1px solid rgb(240, 2, 2);
+    padding: 50px 150px 50px 150px;
+}
+.page-content{
+	margin-top: 64px;
+	border: 1px solid rgb(240, 2, 2);
+	padding: 20px;
+	width:100% ;
+}
+.main{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image:url(https://itcrumbs.ru/wp-content/uploads/2022/11/Hendbuk-ot-YAndeksa-1.jpg);
+}
+.info{
+	display:flex;
+    border: 1px solid rgb(240, 2, 2);
+    padding: 50px 150px 50px 150px;
+}
+.info-content{
+	border: 1px solid rgb(240, 2, 2);
+	
+	padding: 20px;
+	width:100% ;
+}
+.about{
+	display:flex;
+    border: 1px solid rgb(240, 2, 2);
+    padding: 50px 150px 50px 150px;
+}
+.about-content{
+	border: 1px solid rgb(240, 2, 2);
+	
+	padding: 20px;
+	width:100% ;
+}
+.filter{
+    margin-top: 164px;
+    border: 1px solid rgb(240, 2, 2);
+    width:250px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float:right;
+}
+.links{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.page{
+    display: none; 
+}
+.show{
+    display: block;
+}
+.btn{
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin: 1px 0px 15px ;
+	outline: none;
+	border: none;  
+	border-radius: 4px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #4572ad;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation; 
+}
+.btn:hover {
+	box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+	background-color: #297be6;
+}
+.btn:active {
+	box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 2px 6px 2px rgb(26 115 232 / 30%);
+	background-color: #1a73e8 !important;
+}
+.btn:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+.btn:disabled {
+	pointer-events: none;
+	opacity: 0.65;
+}
+.title{
+	font-size: 30px;
+    text-align: center;
+}
+/* .links{
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} */
+.links a{
+    text-decoration: none;
+	
+}
+.banner{
+font-size: 50px;
+}
+#icon{
+	float: right;
+	
+}
+.bx-star{
+	font-size: 25px;
+}
+.bxs-star{
+	color:#fff001;
+	font-size: 25px;
+}
+
+table {
+	border: 1px solid grey;
+	text-align: center;
+	font-size: 15px;
+}
+
+th {
+	border: 1px solid grey;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+td {
+	border: 1px solid grey;
+	padding-left:15px;
+	padding-right:15px;
+}
+
