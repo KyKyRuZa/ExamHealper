@@ -183,4 +183,33 @@ td {
 	padding-left:15px;
 	padding-right:15px;
 }
-
+@media (min-width: 300px) and (max-width: 650px){
+	.page-catalog{
+		width: 100%;
+		margin: 0;
+		padding: 50px 10px 50px 10px;
+	}
+	.banner{
+		font-size: 30px;
+	}
+	.info{
+		width: 100%;
+		margin: 0;
+		padding: 50px 10px 50px 10px;
+	}
+	.title{
+		font-size:15px;
+	}
+	.catalog{
+		font-size:15px;
+		width: 50%;
+	}
+	.filter{
+		width: 50%;
+	}
+	.about{
+		width: 100%;
+		margin: 0;
+		padding: 50px 10px 50px 10px;
+	}
+}
