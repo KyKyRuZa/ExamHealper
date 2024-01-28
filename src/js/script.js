@@ -14,10 +14,3 @@ navbarToggle.addEventListener("click", toggleNavbarVisibility);
 
 navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
 navbarMenu.addEventListener("click", toggleNavbarVisibility);
-
-
-function changeIcon() {
-  var icon = document.getElementById('icon');
-  icon.classList.toggle('bx-star');
-  icon.classList.toggle('bxs-star');
-}
