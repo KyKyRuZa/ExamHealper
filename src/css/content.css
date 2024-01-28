@@ -3,14 +3,15 @@
 }
 .page-catalog{
     display:flex;
-    border: 1px solid rgb(240, 2, 2);
     padding: 50px 150px 50px 150px;
 }
 .page-content{
 	margin-top: 64px;
-	border: 1px solid rgb(240, 2, 2);
 	padding: 20px;
 	width:100% ;
+}
+.catalog{
+	border: 1px solid black;
 }
 .main{
 	background-size: cover;
@@ -20,40 +21,51 @@
 }
 .info{
 	display:flex;
-    border: 1px solid rgb(240, 2, 2);
     padding: 50px 150px 50px 150px;
 }
 .info-content{
-	border: 1px solid rgb(240, 2, 2);
-	
 	padding: 20px;
 	width:100% ;
 }
 .about{
 	display:flex;
-    border: 1px solid rgb(240, 2, 2);
     padding: 50px 150px 50px 150px;
 }
 .about-content{
-	border: 1px solid rgb(240, 2, 2);
-	
 	padding: 20px;
 	width:100% ;
 }
 .filter{
+	border: 1px solid black;
     margin-top: 164px;
-    border: 1px solid rgb(240, 2, 2);
     width:250px;
     padding-left: 15px;
     margin-left: 15px;
     float:right;
+	height: 100%;
+	position: sticky;
+	top: 100px;
+}
+.scale{
+	border-collapse: collapse;
+	display: block;
+	height: 100%;
+	margin: 15px 10px 15px 10px;
+	
+}
+.page-scale{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 100%;
 }
 .links{
     padding-top: 5px;
     padding-bottom: 5px;
 }
 .page{
-    display: none; 
+    display: none;
+	margin-bottom: 25px;
+	margin-top: 25px; 
 }
 .show{
     display: block;
@@ -79,6 +91,10 @@
 	appearance: none;
 	touch-action: manipulation; 
 }
+.btntext{
+	text-decoration: none;
+	color: #fff;
+}
 .btn:hover {
 	box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
 	background-color: #297be6;
@@ -94,18 +110,46 @@
 	pointer-events: none;
 	opacity: 0.65;
 }
-.title{
+.title1{
 	font-size: 30px;
     text-align: center;
 }
-/* .links{
-	border: 1px solid black;
-	margin-top: 10px;
-	margin-bottom: 10px;
-} */
+.title{   
+	width: 100%; 
+	font-size: 30px;
+    text-align: center;
+	border-bottom: 1px solid #000; 
+	line-height: 0.1em;
+	margin: 10px 0 20px; 
+	
+}
+.title span{
+	background:#fff; 
+    padding:0 10px; 
+	
+}
+.tabs {
+	min-width: 520px;
+	max-width: 800px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+section {
+	height: 0px;
+	background: #fff;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	margin: -1px 0px 0px 0px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.2s;
+}
+
 .links a{
     text-decoration: none;
-	
 }
 .banner{
 font-size: 50px;
